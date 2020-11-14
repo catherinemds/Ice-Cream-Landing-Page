@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-about {
+    border: #D44AAA solid 2px;
+    background: transparent;
+    border-radius: 10px;
+    color: #D44AAA;
+    font-weight: 600;
+}
+.btn-about:hover {
+    background-color: #ebbdc6;
+    color: #D44AAA;
+    font-weight: 600;
+}
+.text-brand {
+    color: #D44AAA !important;
+    /*background: -webkit-linear-gradient(to right, #dd5e89, #f7bb97);
+    background: linear-gradient(to right, #dd5e89, #f7bb97);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;*/
+    font-size: x-large;
+    font-weight: 600;
+    font-style: italic;
+}
+
+nav {
+    background-color: transparent !important
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background:#ebbdc6 /*#dede7c #a19ed9 #ebc578*/ url("Images/IceCream.png") no-repeat 5% 90%;
+    background-size: 38%;
+
+}
+
+.nav-item {
+    font-size: larger;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+header a, #footer a {
+    color: #D44AAA !important;
+} 
+
+header h1 {
+    font-size: 5.5rem;
+}
+
+header h2 {
+    font-size: 4rem;
+}
+
+header h1, header h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  
+    background: linear-gradient(to right, #DD2476, #FF512F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+
+.button-header {
+    border: #DD2476 solid 2px;
+    background: transparent;
+    border-radius: 10px;
+    padding: .5rem;
+    color: #DD2476;
+}
+
+#products {
+    height: 100vh;
+} 
+
+h2  {
+    color: #D44AAA;
+    font-weight: 600;
+}
+
+.carousel-item img {
+    height: 70vh;
+}
+
+
+#about, #footer {
+    background-color: #ebbdc6;
+}
+
+#about img {
+    max-width: 100%;
+}
+
+
+#footer a {
+    color: white;
+}
+
+@media (min-width: 1440px) {
+    body {
+        font-size: 1.5rem;
+    }
+    .text-brand {
+        font-size: xx-large;
+    }
+
+    .nav-item {
+        font-size: x-large;
+    }
+
+    header h1 {
+        font-size: 6.5rem
+    }
+
+    header h2 {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .header-text {
+        align-items: flex-start!important;
+    }
+
+    font-size: .9rem;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: .8rem;
+    }
+
+    header {
+        background: #ebbdc6;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel {
+        display: none;
+    }
+}
+
