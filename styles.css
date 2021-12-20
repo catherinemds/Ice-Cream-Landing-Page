@@ -20,10 +20,6 @@ body {
 }
 .text-brand {
     color: #d44aaa !important;
-    /*background: -webkit-linear-gradient(to right, #dd5e89, #f7bb97);
-    background: linear-gradient(to right, #dd5e89, #f7bb97);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent;*/
     font-size: x-large;
     font-weight: 600;
     font-style: italic;
@@ -37,9 +33,7 @@ nav {
 header {
     height: 100vh;
     width: 100%;
-    background: #ebbdc6c9 /* #ebbdc6 #dede7c #a19ed9 #ebc578*/ url("Images/IceCream.png")
-        no-repeat left center;
-    background-size: 43%;
+    background: #ebbdc6c9; 
 }
 
 .nav-item {
@@ -65,11 +59,10 @@ header h2 {
 header h1,
 header h2 {
     font-family: "Noto Sans JP", sans-serif;
-
     background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
-    background: linear-gradient(to right, #dd2476, #ff512f);
+    background: linear-gradient(to right, #dd2476, #ff512f); 
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 .button-header {
@@ -94,6 +87,16 @@ header h2 {
 .button-header:hover {
     color: #ffffff;
     text-decoration: none;
+}
+
+.img-home {
+        width: 100%;
+}
+
+.circle {
+    height: 50%;
+    border-radius: 50%;
+    background-color: #e24a838f;
 }
 
 #products {
@@ -146,9 +149,8 @@ h2 {
 @media (max-width: 992px) {
     .header-text {
         align-items: flex-start !important;
+        font-size: 0.9rem;
     }
-
-    font-size: 0.9rem;
 }
 
 @media (max-width: 768px) {
